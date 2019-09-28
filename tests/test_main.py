@@ -1,4 +1,4 @@
-from main import plus, minus, mul, div
+from main import plus, minus, mul, div, surplus
 
 
 def test_plus():
@@ -15,3 +15,7 @@ def test_mul():
 
 def test_div():
     assert div(3, 3) == 1
+
+
+def test_surplus():
+    assert surplus(4, 3) == 1

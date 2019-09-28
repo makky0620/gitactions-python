@@ -12,3 +12,7 @@ def mul(x: int, y: int) -> int:
 
 def div(x: int, y: int) -> float:
     return x / y
+
+
+def surplus(x: int, y: int) -> int:
+    return x % y
