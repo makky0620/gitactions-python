@@ -18,6 +18,6 @@ jobs:
     - name: Test with pytest
       run: |
         pipenv run pytest
-    - name Build python
+    - name: Build python
       run: |
         pipenv run python main.py
